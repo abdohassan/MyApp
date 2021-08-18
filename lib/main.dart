@@ -13,6 +13,7 @@ class _MyAppState extends State<MyApp> {
   void _select(Choice choice) {
     setState(() {
       _selectedOption = choice;
+
     });
   }
   @override
